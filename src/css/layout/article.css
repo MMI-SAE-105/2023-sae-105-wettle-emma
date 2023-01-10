@@ -36,3 +36,35 @@
 .article__img {
     width: 80%;
 }
+
+.article__frise {
+    position: relative;
+    width: 100%;
+    max-width: 280px;
+    margin: 0;
+    padding: 0
+
+}
+
+.article__frise:after {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    bottom: 2px;
+    left: 50%;
+    width: 8px;
+    background: var(--main-color--red);
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.article__frise-imgleft {
+    float: left;
+    width: 80%;
+    
+}
+
+.article__frise-imgright {
+    float: right;
+   width: 80%;
+}
