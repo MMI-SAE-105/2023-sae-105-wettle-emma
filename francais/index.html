@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,61 +7,65 @@
     <meta name="description" content="Kub">
 
     <title>KUB</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="https://unpkg.com/alpinejs" defer></script>
+
 </head>
 <body>
-  <header>
-    <a href="/">
+  <header class="header__main">
+    <a class="header__logo" href="/francais/index.html">
         <img src="/public/icones/KUB.webp" alt="logo du site">
     </a>
 
-    <a href="/">
+    <a class="header__langue" href="/">
       <img src="/public/icones/EN.svg" alt="logo changement de langue">
     </a>
 
-    <button>
-      <span></span>
+    <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+      <span class="menu-btn__bar"></span>
     </button>
 
-    <nav>
-      <ul>
-        <li>
-          <a href="/francais/cubisme.html">
+    <nav class="header__menu menu" x-show="menuIsOpen">
+      <ul class="menu__list">
+        
+        <li class="menu__item">
+          <a class="menu__link" href="/francais/cubisme.html">
             Le cubisme
-            <span></span>
+            <span class="menu__bar"></span>
           </a>
         </li>
-        <li>
-          <a href="/francais/fernandleger.html">
+        <li class="menu__item">
+          <a class="menu__link" href="/francais/fernandleger.html">
             Fernand Léger
-            <span></span>
+            <span class="menu__bar"></span>
           </a>
         </li>
-        <li>
-          <a href="/francais/yiannismoralis.html">
+        <li class="menu__item">
+          <a class="menu__link" href="/francais/yiannismoralis.html">
             Yiannis Moralis
-            <span></span>
+            <span class="menu__bar"></span>
           </a>
         </li>
-        <li>
-          <a href="/francais/mariablanchard.html">
+        <li class="menu__item">
+          <a class="menu__link" href="/francais/mariablanchard.html">
             Maria Blanchard
-            <span></span>
+            <span class="menu__bar"></span>
           </a>
         </li>
-        <li>
-          <a href="/francais/juliogonzalez.html">
+        <li class="menu__item">
+          <a class="menu__link" href="/francais/juliogonzalez.html">
             Julio González
-            <span></span>
+            <span class="menu__bar"></span>
           </a>
         </li>
-        <li>
-          <a href="/francais/informationspratiques.html">
+        <li class="menu__item">
+          <a class="menu__link" href="/francais/informationspratiques.html">
             Informations pratique
-            <span></span>
+            <span class="menu__bar"></span>
           </a>
         </li>
-        <li>
-          <a href="/francais/contact.html">
+        <li class="menu__item">
+          <a class="menu__link" href="/francais/contact.html">
             Contact
           </a>
         </li>

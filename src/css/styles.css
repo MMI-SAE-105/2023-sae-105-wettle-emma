@@ -6,11 +6,12 @@
 
 @import "vendors/normalize.css";
 
-@import "layout/";
-
 @import "base/main.css";
 @import "base/media.css";
 
-@import "components/"; 
+@import "layout/footer.css";
+@import "layout/header.css";
+
+@import "components/menu.css"; 
 
 @import "fonts.css";
