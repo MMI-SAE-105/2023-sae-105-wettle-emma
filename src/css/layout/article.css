@@ -30,15 +30,53 @@
     width: auto;
     height: auto;
     background-color: var(--main-color--red);
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.article__button {
+    width: 7rem;
+    height: 1rem;
+    background-color: var(--main-color--red);
+    text-align: center;
+    color: white;
+    margin-left: 14rem;
+    padding-top: 1rem;
+}
+
+.article__button2 {
+    width: 11rem;
+    height: 1rem;
+    background-color: var(--main-color--red);
+    text-align: center;
+    color: white;
+    margin-left: 11.5rem;
     padding-top: 1rem;
 }
 
 .article__img {
-    width: 80%;
+    width: 60%;
 }
 
-.article__img {
-    width: 60%;
+.article__listtitle {
+    font-family: var(--font-DS-serif);
+    font-size: var(--m);
+    font-style: italic;
+}
+
+.article__tarifs {
+    display: flex;
+    margin-right: 0.5rem;
+}
+
+.article__prix {
+    margin-left: 1rem;
+    padding-left: 0;
+    color: var(--main-color--red);
+}
+
+.article__nom {
+    padding-right: 1.5rem;
 }
 
 .article__frise {

@@ -34,7 +34,7 @@ body {
 .list-unstyled {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-bottom: 0.2rem;
 }
 
 a {
@@ -42,6 +42,3 @@ a {
     text-decoration: none;
 }
 
-main {
-    padding-bottom: 100px;
-}
