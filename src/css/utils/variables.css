@@ -1,0 +1,14 @@
+:root {
+    /* Color styles */
+--main-color--black: rgba(0, 0, 0, 1);
+--main-color--white: rgba(255, 255, 255, 1);
+--main-color--yellow: rgba(184, 134, 11, 1);
+--main-color--red: rgba(136, 60, 48, 1);
+
+/* Text-size styles */
+--heading-1: 22px;
+--heading-2: 18px;
+--heading-3: 16px;
+--body: 14px;
+--small-text: 12px;
+}
