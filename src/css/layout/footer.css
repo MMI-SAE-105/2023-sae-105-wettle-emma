@@ -1,6 +1,8 @@
 .footer__main {
     background-color: var(--main-color--yellow);
     padding: 0.5rem;
+    /*margin-top:170rem;*/
+    z-index: -5;
 }
 
 .footer__title {
@@ -33,7 +35,6 @@
 
 .footer__list {
     padding: 0.5rem;
-    display: flex;
     justify-content: space-around;
     width: 50%;
     margin: 0;

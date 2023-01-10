@@ -13,65 +13,66 @@
 
 <body>
 
-<header>
-    <a href="/francais/index.html">
-        <img src="/public/icones/KUB.webp" alt="logo du site">
-    </a>
-
-    <a href="/">
-      <img src="/public/icones/EN.svg" alt="logo changement de langue">
-    </a>
-
-    <button>
-      <span></span>
-    </button>
-
-    <nav>
-      <ul>
-        <li>
-          <a href="/francais/cubisme.html">
-            Le cubisme
-            <span></span>
-          </a>
-        </li>
-        <li>
-          <a href="/francais/fernandleger.html">
-            Fernand Léger
-            <span></span>
-          </a>
-        </li>
-        <li>
-          <a href="/francais/yiannismoralis.html">
-            Yiannis Moralis
-            <span></span>
-          </a>
-        </li>
-        <li>
-          <a href="/francais/mariablanchard.html">
-            Maria Blanchard
-            <span></span>
-          </a>
-        </li>
-        <li>
-          <a href="/francais/juliogonzalez.html">
-            Julio González
-            <span></span>
-          </a>
-        </li>
-        <li>
-          <a href="/francais/informationspratiques.html">
-            Informations pratique
-            <span></span>
-          </a>
-        </li>
-        <li>
-          <a href="/francais/contact.html">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <header class="header__main">
+        <a class="header__logo" href="/francais/index.html">
+            <img src="/public/icones/KUB.webp" alt="logo du site">
+        </a>
+    
+        <a class="header__langue" href="/">
+          <img src="/public/icones/EN.svg" alt="logo changement de langue">
+        </a>
+    
+        <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+          <span class="menu-btn__bar"></span>
+        </button>
+    
+        <nav class="header__menu menu" x-show="menuIsOpen">
+          <ul class="menu__list">
+            
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/cubisme.html">
+                Le cubisme
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/fernandleger.html">
+                Fernand Léger
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/yiannismoralis.html">
+                Yiannis Moralis
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/mariablanchard.html">
+                Maria Blanchard
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/juliogonzalez.html">
+                Julio González
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/informationspratiques.html">
+                Informations pratique
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
   <main>
 
@@ -97,47 +98,44 @@
 
   <div class="article__frise">
     <a href="/francais/juliogonzalez.html">
-    <img class="article__frise-imgleft" src="/public/img/jgrond.webp" alt="photo de Julio González">
-    <p>Julio González</p>
-    <p>1876-1942</p>
-  </a>
+    <img class="article__frise-imgleft" src="/public/img/jgrond.webp" alt="photo de Julio González"></a>
+    <p class="article__contenuleft">Julio González, 1876-1942</p>
+  
 
   <a href="/francais/fernandleger.html">
-    <img class="article__frise-imgright" src="/public/img/flrond.webp" alt="photo de Fernand Léger">
-    <p>Fernand Léger</p>
-    <p>1881-1955</p>
-  </a>
+    <img class="article__frise-imgright" src="/public/img/flrond.webp" alt="photo de Fernand Léger"></a>
+    <p class="article__contenurigth">Fernand Léger, 1881-1955</p>
+  
 
   <a href="/francais/mariablanchard.html">
-    <img class="article__frise-imgleft" src="/public/img/mbrond.webp" alt="photo de Maria Blanchard">
-    <p>Maria Blanchard</p>
-    <p>1881-1932</p>
-  </a>
+    <img class="article__frise-imgleft" src="/public/img/mbrond.webp" alt="photo de Maria Blanchard"></a>
+    <p class="article__contenuleft">Maria Blanchard, 1881-1932</p>
+  
 
   <a href="/francais/yiannismoralis.html">
-    <img class="article__frise-imgright" src="/public/img/ymrond.webp" alt="photo de Yiannis Moralis">
-    <p>Yiannis Moralis</p>
-    <p>1916-2009</p>
-  </a>
+    <img class="article__frise-imgright" src="/public/img/ymrond.webp" alt="photo de Yiannis Moralis"></a>
+    <p class="article__contenuright">Yiannis Moralis, 1916-2009</p>
+
+  
 </div>
 
   </main>
 
-  <footer>
-    <p>Fondation Cartier</p>
-    <p>261 Bd Raspail</p>
-    <p>75014 Paris</p>
-    <p>01 42 18 56 30</p>
+  <footer class="footer__main">
+    <p class="footer__title">Fondation Cartier</p>
+    <p class="footer__text">261 Bd Raspail</p>
+    <p class="footer__text">75014 Paris</p>
+    <p class="footer__text">01 42 18 56 30</p>
 
-    <p>Pour rester au courant de nos actualités, suivez nous sur</p>
-    <ul>
-      <li><a href="https://facebook.com" aria-label="Facebook"><img src="/public/icones/facebook.webp" alt="logo de Facebook"></a></li>
-      <li><a href="https://facebook.com" aria-label="Instagram"><img src="/public/icones/instagram.webp" alt="logo d'Instagram"></a></li>
-      <li><a href="https://facebook.com" aria-label="Youtube"><img src="/public/icones/youtube.webp" alt="logo de Youtube"></a></li>
-      <li><a href="https://facebook.com" aria-label="Twitter"><img src="/public/icones/twitter.webp" alt="logo de Twitter"></a></li>
+    <p class="footer__title">Pour rester au courant de nos actualités, suivez nous sur</p>
+    <ul class="footer__list">
+      <li class="list-unstyled"><a href="https://facebook.com" aria-label="Facebook"><img class="footer__img" src="/public/icones/facebook.webp" alt="logo de Facebook"></a></li>
+      <li class="list-unstyled"><a href="https://facebook.com" aria-label="Instagram"><img class="footer__img" src="/public/icones/instagram.webp" alt="logo d'Instagram"></a></li>
+      <li class="list-unstyled"><a href="https://facebook.com" aria-label="Youtube"><img class="footer__img" src="/public/icones/youtube.webp" alt="logo de Youtube"></a></li>
+      <li class="list-unstyled"><a href="https://facebook.com" aria-label="Twitter"><img class="footer__img" src="/public/icones/twitter.webp" alt="logo de Twitter"></a></li>
     </ul>
 
-    <p>Mentions légales</p>
+    <p class="footer__mention">Mentions légales</p>
     
   </footer>
     

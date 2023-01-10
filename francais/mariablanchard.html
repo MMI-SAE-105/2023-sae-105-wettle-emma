@@ -12,59 +12,60 @@
 </head>
 
 <body>
-    <header>
-        <a href="/francais/index.html">
+    <header class="header__main">
+        <a class="header__logo" href="/francais/index.html">
             <img src="/public/icones/KUB.webp" alt="logo du site">
         </a>
     
-        <a href="/">
+        <a class="header__langue" href="/">
           <img src="/public/icones/EN.svg" alt="logo changement de langue">
         </a>
     
-        <button>
-          <span></span>
+        <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+          <span class="menu-btn__bar"></span>
         </button>
     
-        <nav>
-          <ul>
-            <li>
-              <a href="/francais/cubisme.html">
+        <nav class="header__menu menu" x-show="menuIsOpen">
+          <ul class="menu__list">
+            
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/cubisme.html">
                 Le cubisme
-                <span></span>
+                <span class="menu__bar"></span>
               </a>
             </li>
-            <li>
-              <a href="/francais/fernandleger.html">
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/fernandleger.html">
                 Fernand Léger
-                <span></span>
+                <span class="menu__bar"></span>
               </a>
             </li>
-            <li>
-              <a href="/francais/yiannismoralis.html">
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/yiannismoralis.html">
                 Yiannis Moralis
-                <span></span>
+                <span class="menu__bar"></span>
               </a>
             </li>
-            <li>
-              <a href="/francais/mariablanchard.html">
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/mariablanchard.html">
                 Maria Blanchard
-                <span></span>
+                <span class="menu__bar"></span>
               </a>
             </li>
-            <li>
-              <a href="/francais/juliogonzalez.html">
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/juliogonzalez.html">
                 Julio González
-                <span></span>
+                <span class="menu__bar"></span>
               </a>
             </li>
-            <li>
-              <a href="/francais/informationspratiques.html">
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/informationspratiques.html">
                 Informations pratique
-                <span></span>
+                <span class="menu__bar"></span>
               </a>
             </li>
-            <li>
-              <a href="/francais/contact.html">
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/contact.html">
                 Contact
               </a>
             </li>
@@ -107,21 +108,21 @@
     
       </main>
     
-      <footer>
-        <p>Fondation Cartier</p>
-        <p>261 Bd Raspail</p>
-        <p>75014 Paris</p>
-        <p>01 42 18 56 30</p>
+      <footer class="footer__main">
+        <p class="footer__title">Fondation Cartier</p>
+        <p class="footer__text">261 Bd Raspail</p>
+        <p class="footer__text">75014 Paris</p>
+        <p class="footer__text">01 42 18 56 30</p>
     
-        <p>Pour rester au courant de nos actualités, suivez nous sur</p>
-        <ul>
-          <li><a href="https://facebook.com" aria-label="Facebook"><img src="/public/icones/facebook.webp" alt="logo de Facebook"></a></li>
-          <li><a href="https://facebook.com" aria-label="Instagram"><img src="/public/icones/instagram.webp" alt="logo d'Instagram"></a></li>
-          <li><a href="https://facebook.com" aria-label="Youtube"><img src="/public/icones/youtube.webp" alt="logo de Youtube"></a></li>
-          <li><a href="https://facebook.com" aria-label="Twitter"><img src="/public/icones/twitter.webp" alt="logo de Twitter"></a></li>
+        <p class="footer__title">Pour rester au courant de nos actualités, suivez nous sur</p>
+        <ul class="footer__list">
+          <li class="list-unstyled"><a href="https://facebook.com" aria-label="Facebook"><img class="footer__img" src="/public/icones/facebook.webp" alt="logo de Facebook"></a></li>
+          <li class="list-unstyled"><a href="https://facebook.com" aria-label="Instagram"><img class="footer__img" src="/public/icones/instagram.webp" alt="logo d'Instagram"></a></li>
+          <li class="list-unstyled"><a href="https://facebook.com" aria-label="Youtube"><img class="footer__img" src="/public/icones/youtube.webp" alt="logo de Youtube"></a></li>
+          <li class="list-unstyled"><a href="https://facebook.com" aria-label="Twitter"><img class="footer__img" src="/public/icones/twitter.webp" alt="logo de Twitter"></a></li>
         </ul>
     
-        <p>Mentions légales</p>
+        <p class="footer__mention">Mentions légales</p>
         
       </footer>
     
