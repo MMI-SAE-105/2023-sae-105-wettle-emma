@@ -1,0 +1,29 @@
+.accueil__titre {
+    width: auto;
+    height: 1.5rem;
+    background-color: var(--main-color--red);
+    text-align: center;
+    color: white;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-family: var(--font-DS-serif);
+    font-size: var(--l);
+}
+
+.accueil__text {
+    text-align: right;
+    margin-right: 0.5rem;
+    margin-top: 0;
+}
+
+.accueil__body {
+    margin: 1rem;
+    margin-top: 0.7rem;
+}
+
+.accueil__text2 {
+    font-family: var(--font-DS-serif);
+    font-size: var(--m);
+    font-style: italic;
+    text-align: right;
+}
