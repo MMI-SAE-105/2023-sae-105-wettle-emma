@@ -4,9 +4,12 @@
 
 @import "utils/variables.css";
 
+@import "vendors/normalize.css";
+
 @import "layout/";
 
-@import "base/";
+@import "base/main.css";
+@import "base/media.css";
 
 @import "components/"; 
 

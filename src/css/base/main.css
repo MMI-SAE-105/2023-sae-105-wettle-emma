@@ -1,0 +1,25 @@
+h1 {
+    font-family: var(--font-bebas--neue);
+    font-size: var(--xl);
+    text-decoration: none;
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--font-DS-serif);
+    font-size: var(--l);
+    text-decoration: none;
+}
+
+h3 {
+    font-family: var(--font-DS-serif);
+    font-size: var(--m);
+    font-style: italic;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--font-times);
+    font-size: var(--s);
+    text-decoration: none;
+}
