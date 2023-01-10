@@ -11,14 +11,14 @@
 
 .footer__text {
     font-size: var(--m);
-    font-family: var(--font-DS-serif);
+    font-family: var(--font-DM-serif);
     color: white;
     font-style: italic;
 }
 
 .footer__mention {
     font-size: var(--m);
-    font-family: var(--font-DS-serif);
+    font-family: var(--font-DM-serif);
     color: white;
     font-style: italic;
     text-align: center;

@@ -6,7 +6,7 @@
     color: white;
     margin-left: 7rem;
     margin-right: 7rem;
-    font-family: var(--font-DS-serif);
+    font-family: var(--font-DM-serif);
     font-size: var(--l);
 }
 
@@ -22,8 +22,68 @@
 }
 
 .accueil__text2 {
-    font-family: var(--font-DS-serif);
+    font-family: var(--font-DM-serif);
     font-size: var(--m);
     font-style: italic;
     text-align: right;
 }
+
+.accueil__bar1 {
+    z-index: 3;
+    content: "";
+    background-color: black;
+    width: 10em;
+    height: 2px;
+    position: absolute;
+    display: flex;
+    left: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 19rem;
+}
+
+.accueil__bar2 {
+    z-index: 5;
+    content: "";
+    background-color: black;
+    width: 10em;
+    height: 2px;
+    position: absolute;
+    display: flex;
+    left: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+}
+
+.accueil img {
+    padding-top: 5rem;
+}
+
+.accueil__redsquare {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 59px;
+    top: 125px;
+    background-color: var(--main-color--red);
+    font-family: var(--font-DM-serif);
+    font-size: var(--xl);
+    text-align: center;
+    color: white;
+}
+
+.accueil__yellowsquare {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 157px;
+    top: 186px;
+    background-color: var(--main-color--yellow);
+    font-family: var(--font-DM-serif);
+    font-size: var(--xl);
+    text-align: center;
+    color: white;
+}
+
