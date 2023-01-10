@@ -14,4 +14,7 @@ figcaption {
     font-style: italic;
     font-size: var(--xs);
     color: var(--main-color--black);
+    text-align: center;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
 }

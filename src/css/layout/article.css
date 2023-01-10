@@ -2,7 +2,7 @@
     z-index: 3;
     content: "";
     background-color: var(--main-color--yellow);
-    width: 3em;
+    width: 1.5em;
     height: 5px;
     position: absolute;
     display: flex;
@@ -18,8 +18,21 @@
 
 .article__h3 {
     margin-left: 0.7rem;
+    margin-bottom: 0.5rem;
 }
 
 .article__text {
     margin: 1rem;
+    margin-top: 0.7rem;
+}
+
+.article__square {
+    width: auto;
+    height: auto;
+    background-color: var(--main-color--red);
+    padding-top: 1rem;
+}
+
+.article__img {
+    width: 80%;
 }
