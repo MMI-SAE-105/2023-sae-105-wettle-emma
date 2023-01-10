@@ -1,0 +1,25 @@
+.article__bar {
+    z-index: 3;
+    content: "";
+    background-color: var(--main-color--yellow);
+    width: 3em;
+    height: 5px;
+    position: absolute;
+    display: flex;
+    left: 0.4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.article__h2 {
+    margin-bottom: 0;
+    margin-left: 0.7rem;
+}
+
+.article__h3 {
+    margin-left: 0.7rem;
+}
+
+.article__text {
+    margin: 1rem;
+}
