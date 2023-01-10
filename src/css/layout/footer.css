@@ -1,0 +1,45 @@
+.footer__main {
+    background-color: var(--main-color--yellow);
+    padding: 0.5rem;
+}
+
+.footer__title {
+    font-size: var(--xl);
+    font-family: var(--font-bebas--neue);
+    margin-bottom: 0;
+}
+
+.footer__text {
+    font-size: var(--m);
+    font-family: var(--font-DS-serif);
+    color: white;
+    font-style: italic;
+}
+
+.footer__mention {
+    font-size: var(--m);
+    font-family: var(--font-DS-serif);
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.footer li {
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    position: relative;
+}
+
+.footer__list {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0;
+    padding: 0rem;
+}
+
+.footer__img {
+    margin:0 10px;
+}
