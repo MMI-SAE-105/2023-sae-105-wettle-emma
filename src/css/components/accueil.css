@@ -8,6 +8,7 @@
     margin-right: 7rem;
     font-family: var(--font-DM-serif);
     font-size: var(--l);
+    margin-bottom: 2rem;
 }
 
 .accueil__text {
@@ -81,7 +82,7 @@
     width: 96px;
     height: 96px;
     left: 157px;
-    top: 30px;
+    top: 20px;
     background-color: var(--main-color--yellow);
     font-family: var(--font-DM-serif);
     font-size: var(--xl);
@@ -104,3 +105,18 @@
     padding-top: 1rem;
 }
 
+.accueil__section {
+    display: flex;
+    width: 98%;
+    margin-bottom: 1rem;
+}
+
+.accueil__artiste {
+    padding-top: 10rem;
+    left: 5rem;
+    margin-left: 3rem;
+}
+
+.accueil__artiste1 {
+    margin-left: 0.5rem;
+}

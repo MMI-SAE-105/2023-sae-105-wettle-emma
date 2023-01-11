@@ -79,6 +79,26 @@
     padding-right: 1.5rem;
 }
 
+.accueil__oeuvres {
+    display: flex;
+    width: 98%;
+    margin-bottom: 1rem;
+}
+
+.accueil__oeuvre {
+    padding-top: 3rem;
+    margin-right: 0.5rem;
+    margin-left: 5rem;
+    text-align: left;
+}
+
+.accueil__oeuvre1 {
+    padding-top: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 5rem;
+    text-align: right;
+}
+
 /*
 .article__frise {
     position: relative;
