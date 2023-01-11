@@ -30,7 +30,6 @@
 }
 
 .accueil__bar1 {
-    z-index: 3;
     content: "";
     background-color: black;
     width: 10em;
@@ -44,7 +43,6 @@
 }
 
 .accueil__bar2 {
-    z-index: 5;
     content: "";
     background-color: black;
     width: 10em;
@@ -74,7 +72,7 @@
     text-align: center;
     color: white;
     padding-top: 0;
-    z-index: 2;
+    z-index: 0;
 }
 
 .accueil__yellowsquare {
@@ -89,6 +87,7 @@
     text-align: center;
     color: white;
     padding-left: 1rem;
+    z-index: -1;
 }
 
 .accueil__button {
