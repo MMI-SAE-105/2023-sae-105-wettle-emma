@@ -51,4 +51,5 @@ button[type="submit"] {
     border-radius: 5px;
     font-size: var(--l);
     font-family: var(--font-DM-serif);
+    color: var(--main-color--white);
 }
