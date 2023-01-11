@@ -215,3 +215,41 @@
     width: 120px;
     text-align: center;
 }
+
+.article__accordeon {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.article__accordeon-btn {
+    background-color: var(--main-color--red);
+    font-family: var(--font-DM-serif);
+    font-size: var(--m);
+    border: none;
+    margin-top: 0.5rem;
+    color: var(--main-color--white);
+    text-align: center;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 3rem;
+}
+
+.article__accordeon-btn1 {
+    background-color: var(--main-color--red);
+    font-family: var(--font-DM-serif);
+    font-size: var(--m);
+    border: none;
+    margin-top: 0.5rem;
+    color: var(--main-color--white);
+    text-align: center;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 6rem;
+}

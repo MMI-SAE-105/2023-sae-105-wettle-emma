@@ -93,26 +93,35 @@
 
         <h2 class="article__h2">Tarifs</h2>
         <span class="article__bar"></span>
-    
-        <div class="article__tarifs">
-        <ul class="article__nom">
-            <li class="list-unstyled">Plein tarif</li>
-            <li class="list-unstyled">Tarif réduit</li>
-            <li class="list-unstyled">Réduction 13-25 ans</li>
-            <li class="list-unstyled">Fondation Cartier Pass</li>
-            <li class="list-unstyled">Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants</li>
-        </ul>
 
-        <ul class="article__prix">
-            <li class="list-unstyled">11€</li>
-            <li class="list-unstyled">7,50€</li>
-            <li class="list-unstyled">5€</li>
-            <li class="list-unstyled">18€-50€</li>
-            <li class="list-unstyled">Gratuit</li>
-        </ul>
-    </div>
+    <div class="article__accordeon">
+        <section x-data="{isOpen:false}">
+          <button class="article__accordeon-btn" @click="isOpen = ! isOpen">Plein Tarif</button>
+          <p x-show="isOpen" x-collapse>11€</p>
+        </section>
+  
+        <section x-data="{isOpen:false}">
+          <button class="article__accordeon-btn" @click="isOpen = ! isOpen">Tarif réduit</button>
+          <p x-show="isOpen" x-collapse>7,50€</p>
+        </section>
+  
+        <section x-data="{isOpen:false}">
+          <button class="article__accordeon-btn" @click="isOpen = ! isOpen">Réduction 13-25 ans</button>
+          <p x-show="isOpen" x-collapse>5€</p>
+        </section>
+
+        <section x-data="{isOpen:false}">
+            <button class="article__accordeon-btn" @click="isOpen = ! isOpen">Fondation Cartier Pass</button>
+            <p x-show="isOpen" x-collapse>18€-50€</p>
+          </section>
+
+          <section x-data="{isOpen:false}">
+            <button class="article__accordeon-btn1" @click="isOpen = ! isOpen">Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants</button>
+            <p x-show="isOpen" x-collapse>Gratuit</p>
+          </section>
+      </div>
     
-        <button class="article__button"><a href="/page404"><p>Billetterie</p></a></button>
+        <button class="article__button"><a href="/page404.html"><p>Billetterie</p></a></button>
 
       </main>
     
