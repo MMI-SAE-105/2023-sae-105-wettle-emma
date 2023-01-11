@@ -1,0 +1,43 @@
+.carrousel__parent-photo {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.accueil__carrousel-photo {
+    width: 100%;
+    flex: none;
+    scroll-snap-align: start;
+}
+
+.accueil__carrousel {
+    position: relative;
+    margin-top: 5rem;
+}
+  
+.carrousel_btn {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    display: grid;
+    place-content: center;
+    color: #fff;
+}
+  
+.carrousel_btn-avant {
+    left: 10px;
+}
+  
+.carrousel_btn-apres {
+    right: 10px;
+}
+
+.accueil__carrousel img {
+    width: 80%;
+}

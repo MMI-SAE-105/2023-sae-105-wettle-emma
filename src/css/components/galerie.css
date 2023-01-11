@@ -1,0 +1,36 @@
+.galerie__ombre {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: pointer; 
+    display: grid;
+    place-content: center;
+}
+
+.galerie__ombre::after {
+    content: "X";
+    color: #fff;
+    background-color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 2rem;
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px;
+    color: #fff;
+    border: solid;
+    border-radius: 50%;
+}
+
+.galerie__ombre>img {
+    max-width: 100%;
+}
