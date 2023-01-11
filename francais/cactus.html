@@ -79,17 +79,10 @@
         <h2 class="article__h2">L'oeuvre</h2>
         <span class="article__bar"></span>
     
-        <div class="article__square" x-data="{imageaffichee: '/public/img/cactusoeuvre.webp'}">
-            <img class="article__img"  :src="imageaffichee" alt="Monsieur Cactus, Julio González" 
-            @click="imageaffichee = '/public/img/cactusgrandetaille.webp'">
+        <div class="article__square" >
+            <img class="article__img" src="/public/img/cactusoeuvre.webp" alt="Monsieur Cactus, Julio González">
             <figure><figcaption>Monsieur Cactus, Julio González, 1939</figcaption></figure>
         </div>
-
-        <div class="galerie__ombre">
-            x-show="imageaffichee"
-            @click="imageaffichee = null"
-            @keyup.escape.window="imageaffichee = null">
-            <figure><img :src="imageaffichee" alt="image 237... un chiot"></figure></div>
     
         <h3 class="article__h3">Description de l'oeuvre</h3>
         <p class="article__text">En 1927, González crée ses premières sculptures en fer, souvent sous forme de plaques découpées formant des reliefs et des creux, mais reste peu audacieux et avance à petits pas. Gargallo lui demande à cette époque de l'aide pour élargir ses connaissances du fer en vue de l'Exposition internationale de 1929 à Barcelone. C'est à partir de 1928 que commence réellement la période d'intense collaboration technique entre Picasso et González23. González participe alors activement aux créations cubistes analytiques des sculptures filiformes en fer de Picasso, qui admire la dextérité technique de son ami et considère « qu'il travaille le métal comme une motte de beurre». Picasso avait en effet reçu, en 1921, la commande d'un monument funéraire pour la tombe de son ami Guillaume Apollinaire, œuvre longuement maturée dans une succession de croquis et d'études sur plus de cinq années, et dont les nombreuses propositions ont toutes été rejetées par le jury chargé de les évaluer. Picasso finit par concevoir des sculptures anthropomorphiques filiformes, véritables dessins dans l'espace, dont il doit présenter des maquettes. González va proposer à Picasso des solutions aux techniques de soudure que ne connait pas ce dernier pour la réalisation de ces sculptures issues des dessins préparatoires du Carnet de Dinard, datant d'août 192826, et qui constitueront le Monument pour Apollinaire.</p>
