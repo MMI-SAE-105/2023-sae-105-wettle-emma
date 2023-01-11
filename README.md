@@ -3,6 +3,7 @@
 - PRÉNOM : Emma
 - URL du site : https://kub.emmawettle.fr/
 - URL FIGMA : https://www.figma.com/file/CDgVsqIsO22a4SDz34cyTg/SAE-105-(2022)-(Copy)?node-id=1206%3A835&t=pjalOEFcMNj6NMDl-1 
+- URL Lighthouse : https://kub.emmawettle.fr/reports/index.html 
 
 # Structure de départ pour la SAE 105.
 
