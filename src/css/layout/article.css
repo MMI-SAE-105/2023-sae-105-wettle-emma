@@ -117,7 +117,7 @@
     display: block;
     position: absolute;
     top: 5rem;
-    left: 10.8rem;
+    left: 11rem;
     background-color: var(--main-color--white);
     width: 30px;
     height: 30px;
@@ -131,7 +131,7 @@
     display: block;
     position: absolute;
     top: 15rem;
-    left: 10.8rem;
+    left: 11rem;
     background-color: var(--main-color--white);
     width: 30px;
     height: 30px;
@@ -145,7 +145,7 @@
     display: block;
     position: absolute;
     top: 27rem;
-    left: 10.8rem;
+    left: 11rem;
     background-color: var(--main-color--white);
     width: 30px;
     height: 30px;
@@ -159,7 +159,7 @@
     display: block;
     position: absolute;
     top: 37rem;
-    left: 10.8rem;
+    left: 11rem;
     background-color: var(--main-color--white);
     width: 30px;
     height: 30px;
@@ -172,7 +172,7 @@
     content: "";
     position: absolute;
     top: 44.5rem;
-    left: 10.7rem;
+    left: 11rem;
     width: 0;
     height: 0;
     border-top: 20px solid var(--main-color--red);
