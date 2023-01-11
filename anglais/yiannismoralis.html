@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kub">
+
+    <title>Yiannis Moralis</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="https://unpkg.com/alpinejs" defer></script>
+</head>
+
+<body>
+    <header class="header__main">
+        <a class="header__logo" href="/francais/index.html">
+            <img src="/public/icones/KUB.webp" alt="logo du site">
+        </a>
+    
+        <a class="header__langue" href="/">
+          <img src="/public/icones/EN.svg" alt="logo changement de langue">
+        </a>
+    
+        <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+          <span class="menu-btn__bar"></span>
+        </button>
+    
+        <nav class="header__menu menu" x-show="menuIsOpen">
+          <ul class="menu__list">
+            
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/cubisme.html">
+                Le cubisme
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/fernandleger.html">
+                Fernand Léger
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/yiannismoralis.html">
+                Yiannis Moralis
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/mariablanchard.html">
+                Maria Blanchard
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/juliogonzalez.html">
+                Julio González
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/informationspratiques.html">
+                Informations pratique
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <h1>Yiannis Moralis</h1>
+        <h2 class="article__h2">Petite biographie</h2>
+        <span class="article__bar"></span>
+    
+        <p class="article__text">Yiánnis Móralis (grec moderne : Γιάννης Μόραλης), né le 23 avril 1916 à Arta et décédé le 20 décembre 2009, est un peintre grec membre de la « Génération des années 1930 ».</p>
+    
+        <div class="article__square">
+            <img class="article__img" src="/public/img/portraitym.webp" alt="Erotic, Yiannis Moralis">
+            <figure><figcaption>Erotic, Yiannis Moralis, 2002</figcaption></figure>
+        </div>
+    
+        <h3 class="article__h3">Son influence</h3>
+        <p class="article__text">Il est considéré comme l'un des Maîtres (aussi bien au sens de maîtrise que de celui d'enseignant) du modernisme helléno-centré, de la « Grécité », dont l'élection, rompant avec la tradition, par ses pairs à l'École des Beaux-Arts d'Athènes est considérée comme la preuve manifeste. Il y enseigna de 1947 à 1983. Il fut d'abord l'élève de l'autre « Maître » du modernisme helléno-centré, Fotis Kontoglou.</p>
+    
+        <h3 class="article__h3">Tournant dans sa carrière</h3>
+        <p class="article__text">À partir des années 1950, depuis son poste aux Beaux-Arts, il mit la peinture grecque et sa Grécité au diapason de l'Avant-garde européenne. Ainsi, dans des formes rappelant l'art antique, principalement les stèles funéraires, il inscrivait des adolescentes pré-pubères et des jeunes femmes (au contraire de son ami Yannis Tsarouchis qui représentait de jeunes garçons et des adolescents) dans un cadre géométrique où elles se retrouvaient prisonnières, repliées sur elles-mêmes, symboles de leur propre finitude et mortalité. Dans ses dernières œuvres, Móralis insista plus sur Éros que sur Thanatos, devenant en même temps plus abstrait et moins coloré.</p>
+    
+        <a class="accueil__text2" href="https://www.wikiart.org/fr/yiannis-moralis">En découvrir plus sur Yiannis Moralis</a>
+
+        <h2 class="article__h2">Ses oeuvres</h2>
+        <span class="article__bar"></span>
+
+            <div class="article__oeuvre">
+                <a href="/francais/dialogue.html">
+                  <img src="/public/img/dialogueartiste1.webp" alt="Dialogue, Yiannis Moralis">
+                  <p>Dialogue, 1974</p>
+                </a>
+            </div>
+
+            <div class="article__oeuvre1">
+                <a href="/francais/fullmoon.html">
+                  <img src="/public/img/ymbleuartiste.webp" alt="Full Moon, Yiannis Moralis">
+                  <p>Full Moon</p>
+                </a>
+    
+      </main>
+    
+      <footer class="footer__main">
+        <a class="footer__title" href="https://www.fondationcartier.com/">Fondation Cartier</a>
+        <p class="footer__text">261 Bd Raspail</p>
+        <p class="footer__text">75014 Paris</p>
+        <p class="footer__text">01 42 18 56 30</p>
+    
+        <p class="footer__title">Pour rester au courant de nos actualités, suivez nous sur</p>
+        <ul class="footer__list">
+            <li class="list-unstyled"><a href="https://facebook.com" aria-label="Facebook"><img class="footer__img" src="/public/icones/facebook.webp" alt="logo de Facebook"></a></li>
+            <li class="list-unstyled"><a href="https://instagram.com" aria-label="Instagram"><img class="footer__img" src="/public/icones/instagram.webp" alt="logo d'Instagram"></a></li>
+            <li class="list-unstyled"><a href="https://youtube.com" aria-label="Youtube"><img class="footer__img" src="/public/icones/youtube.webp" alt="logo de Youtube"></a></li>
+            <li class="list-unstyled"><a href="https://twitter.com" aria-label="Twitter"><img class="footer__img" src="/public/icones/twitter.webp" alt="logo de Twitter"></a></li>
+          </ul>
+    
+        <p class="footer__mention">Mentions légales</p>
+        
+      </footer>
+    
+</body>
+</html>

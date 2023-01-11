@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kub">
+
+    <title>Fernand Léger</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="https://unpkg.com/alpinejs" defer></script>
+</head>
+
+<body>
+    <header class="header__main">
+        <a class="header__logo" href="/francais/index.html">
+            <img src="/public/icones/KUB.webp" alt="logo du site">
+        </a>
+    
+        <a class="header__langue" href="/">
+          <img src="/public/icones/EN.svg" alt="logo changement de langue">
+        </a>
+    
+        <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+          <span class="menu-btn__bar"></span>
+        </button>
+    
+        <nav class="header__menu menu" x-show="menuIsOpen">
+          <ul class="menu__list">
+            
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/cubisme.html">
+                Le cubisme
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/fernandleger.html">
+                Fernand Léger
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/yiannismoralis.html">
+                Yiannis Moralis
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/mariablanchard.html">
+                Maria Blanchard
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/juliogonzalez.html">
+                Julio González
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/informationspratiques.html">
+                Informations pratique
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <h1>Fernand Léger</h1>
+        <h2 class="article__h2">Petite biographie</h2>
+        <span class="article__bar"></span>
+    
+        <p class="article__text">Fernand Léger, né le 4 février 1881, à Argentan et mort le 17 août 1955, à Gif-sur-Yvette, est un peintre français, aussi créateur de cartons de tapisseries et de vitraux, décorateur, céramiste, sculpteur, dessinateur, illustrateur. Il a été l'un des premiers à exposer publiquement des travaux d'orientation cubiste, même si on a parfois qualifié son style de « tubiste ».</p>
+    
+        <div class="article__square">
+            <img class="article__img" src="/public/img/portraitfl.webp" alt="Le mécanicien, Fernand Léger">
+            <figure><figcaption>Le mécanicien, Fernand Leger, 1918</figcaption></figure>
+        </div>
+    
+        <h3 class="article__h3">Influence</h3>
+        <p class="article__text">Influencé par les peintres Cézanne, Modigliani et Picasso, mais aussi par des écrivains et des poètes, il montre rapidement un style personnel qui entend "rendre compte de la vie moderne". Prolifique et créatif, il est aussi tapissier, céramiste, sculpteur, décorateur de théâtre et illustrateur. Fils d'éleveurs de sa Normandie natale, Fernand Léger conserve une force de caractère qui l'aidera à dépasser les difficultés. Très tôt, il est repéré pour ses talents de dessinateur et entame une formation d'architecte. Mais en 1900, le jeune homme est happé par l'effervescence artistique parisienne et se tourne vers les arts décoratifs. Il fréquente différentes académies, rencontre Paul Cézanne, et se prend de passion pour l'impressionnisme.</p>
+    
+        <h3 class="article__h3">Tournant dans sa carrière</h3>
+        <p class="article__text">À partir de 1907, Fernand Léger fréquente un atelier d'artistes réputé, La Ruche, et entre en contact avec les maîtres du cubisme comme Braque et Picasso. En 1909, avec l'oeuvre Nu dans la forêt, il impose une atmosphère singulière tirée du "monde déshumanisé" de l'économie industrielle. Fernand Léger peint des décors constitués de "corps mécanisés" et collabore avec des réalisateurs de cinéma comme Abel Gance ou Marcel L'Herbier.</p>
+    
+        <a class="accueil__text2" href="https://www.wikiart.org/fr/fernand-leger">En découvrir plus sur Fernand Léger</a>
+
+        <h2 class="article__h2">Ses oeuvres</h2>
+        <span class="article__bar"></span>
+
+            <div class="article__oeuvre">
+                <a href="/francais/disquesdanslaville.html">
+                  <img src="/public/img/disqueartiste.webp" alt="Les disques dans la ville, Fernand Léger">
+                  <p>Les disques dans la ville, 1920</p>
+                </a>
+            </div>
+
+            <div class="article__oeuvre1">
+                <a href="/francais/hommealapipe.html">
+                  <img src="/public/img/pipeartiste.webp" alt="L'homme à la pipe, Fernand Léger">
+                  <p>L'homme à la pipe, 1920</p>
+                </a>
+            </div>
+
+      </main>
+    
+      <footer class="footer__main">
+        <a class="footer__title" href="https://www.fondationcartier.com/">Fondation Cartier</a>
+        <p class="footer__text">261 Bd Raspail</p>
+        <p class="footer__text">75014 Paris</p>
+        <p class="footer__text">01 42 18 56 30</p>
+    
+        <p class="footer__title">Pour rester au courant de nos actualités, suivez nous sur</p>
+        <ul class="footer__list">
+            <li class="list-unstyled"><a href="https://facebook.com" aria-label="Facebook"><img class="footer__img" src="/public/icones/facebook.webp" alt="logo de Facebook"></a></li>
+            <li class="list-unstyled"><a href="https://instagram.com" aria-label="Instagram"><img class="footer__img" src="/public/icones/instagram.webp" alt="logo d'Instagram"></a></li>
+            <li class="list-unstyled"><a href="https://youtube.com" aria-label="Youtube"><img class="footer__img" src="/public/icones/youtube.webp" alt="logo de Youtube"></a></li>
+            <li class="list-unstyled"><a href="https://twitter.com" aria-label="Twitter"><img class="footer__img" src="/public/icones/twitter.webp" alt="logo de Twitter"></a></li>
+          </ul>
+    
+        <p class="footer__mention">Mentions légales</p>
+        
+      </footer>
+    
+</body>
+</html>

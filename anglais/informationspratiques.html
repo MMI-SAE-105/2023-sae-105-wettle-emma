@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kub">
+
+    <title>Informations pratiques</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="https://unpkg.com/alpinejs" defer></script>
+</head>
+
+<body>
+    <header class="header__main">
+        <a class="header__logo" href="/francais/index.html">
+            <img src="/public/icones/KUB.webp" alt="logo du site">
+        </a>
+    
+        <a class="header__langue" href="/">
+          <img src="/public/icones/EN.svg" alt="logo changement de langue">
+        </a>
+    
+        <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+          <span class="menu-btn__bar"></span>
+        </button>
+    
+        <nav class="header__menu menu" x-show="menuIsOpen">
+          <ul class="menu__list">
+            
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/cubisme.html">
+                Le cubisme
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/fernandleger.html">
+                Fernand Léger
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/yiannismoralis.html">
+                Yiannis Moralis
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/mariablanchard.html">
+                Maria Blanchard
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/juliogonzalez.html">
+                Julio González
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/informationspratiques.html">
+                Informations pratique
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <h1>Informations pratiques</h1>
+        <h2 class="article__h2">Informations pratiques</h2>
+        <span class="article__bar"></span>
+    
+        <div class="article__tarifs">
+        <ul>
+            <li class="list-unstyled"><p class="article__listtitle">Dates de l'exposition :</p> du 13 avril au 23 juin 2021</li>
+            <li class="list-unstyled"><p class="article__listtitle">Lieu de l'exposition :</p> Fondation Cartier, 261 Bd Raspail, 75014 Paris</li>
+            <li class="list-unstyled"><p class="article__listtitle">Horaires d'ouverture :</p> 
+                <li>Tous les jours de 11h à 20h, sauf le lundi.</li>
+                <li>Nocturne le mardi, jusqu'à 22h.</li>
+                <li>La fermeture des salles débute à 19h45 (21h45 les mardis).</li>
+            </li>
+        </ul>
+    </div>
+
+        <h2 class="article__h2">Tarifs</h2>
+        <span class="article__bar"></span>
+
+    <div class="article__accordeon">
+        <section x-data="{isOpen:false}">
+          <button class="article__accordeon-btn" @click="isOpen = ! isOpen">Plein Tarif</button>
+          <p x-show="isOpen" x-collapse>11€</p>
+        </section>
+  
+        <section x-data="{isOpen:false}">
+          <button class="article__accordeon-btn" @click="isOpen = ! isOpen">Tarif réduit</button>
+          <p x-show="isOpen" x-collapse>7,50€</p>
+        </section>
+  
+        <section x-data="{isOpen:false}">
+          <button class="article__accordeon-btn" @click="isOpen = ! isOpen">Réduction 13-25 ans</button>
+          <p x-show="isOpen" x-collapse>5€</p>
+        </section>
+
+        <section x-data="{isOpen:false}">
+            <button class="article__accordeon-btn" @click="isOpen = ! isOpen">Fondation Cartier Pass</button>
+            <p x-show="isOpen" x-collapse>18€-50€</p>
+          </section>
+
+          <section x-data="{isOpen:false}">
+            <button class="article__accordeon-btn1" @click="isOpen = ! isOpen">Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants</button>
+            <p x-show="isOpen" x-collapse>Gratuit</p>
+          </section>
+      </div>
+    
+        <button class="article__button"><a href="/page404.html"><p>Billetterie</p></a></button>
+
+      </main>
+    
+      <footer class="footer__main">
+        <a class="footer__title" href="https://www.fondationcartier.com/">Fondation Cartier</a>
+        <p class="footer__text">261 Bd Raspail</p>
+        <p class="footer__text">75014 Paris</p>
+        <p class="footer__text">01 42 18 56 30</p>
+    
+        <p class="footer__title">Pour rester au courant de nos actualités, suivez nous sur</p>
+        <ul class="footer__list">
+            <li class="list-unstyled"><a href="https://facebook.com" aria-label="Facebook"><img class="footer__img" src="/public/icones/facebook.webp" alt="logo de Facebook"></a></li>
+            <li class="list-unstyled"><a href="https://instagram.com" aria-label="Instagram"><img class="footer__img" src="/public/icones/instagram.webp" alt="logo d'Instagram"></a></li>
+            <li class="list-unstyled"><a href="https://youtube.com" aria-label="Youtube"><img class="footer__img" src="/public/icones/youtube.webp" alt="logo de Youtube"></a></li>
+            <li class="list-unstyled"><a href="https://twitter.com" aria-label="Twitter"><img class="footer__img" src="/public/icones/twitter.webp" alt="logo de Twitter"></a></li>
+          </ul>
+    
+        <p class="footer__mention">Mentions légales</p>
+        
+      </footer>
+    
+</body>
+</html>

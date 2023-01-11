@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kub">
+
+    <title>Le cubisùme</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="https://unpkg.com/alpinejs" defer></script>
+</head>
+
+<body>
+
+    <header class="header__main">
+        <a class="header__logo" href="/francais/index.html">
+            <img src="/public/icones/KUB.webp" alt="logo du site">
+        </a>
+    
+        <a class="header__langue" href="/">
+          <img src="/public/icones/EN.svg" alt="logo changement de langue">
+        </a>
+    
+        <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+          <span class="menu-btn__bar"></span>
+        </button>
+    
+        <nav class="header__menu menu" x-show="menuIsOpen">
+          <ul class="menu__list">
+            
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/cubisme.html">
+                Le cubisme
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/fernandleger.html">
+                Fernand Léger
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/yiannismoralis.html">
+                Yiannis Moralis
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/mariablanchard.html">
+                Maria Blanchard
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/juliogonzalez.html">
+                Julio González
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/informationspratiques.html">
+                Informations pratique
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+  <main>
+
+    <h1>Le cubisme</h1>
+    <h2 class="article__h2">Le mouvement</h2>
+    <span class="article__bar"></span>
+
+    <p class="article__text">Le cubisme est un mouvement artistique du début du XXe siècle, qui constitue une révolution dans la peinture et la sculpture, et influence également l'architecture, la littérature et la musique. Produites essentiellement dans la région parisienne, les œuvres cubistes représentent des objets analysés, décomposés et ré-assemblés en une composition abstraite, comme si l'artiste multipliait les différents points de vue. Elles partagent également une récurrence des formes géométriques et du thème de la modernité.</p>
+
+    <div class="article__square">
+        <img class="article__img" src="/public/img/gernica.webp" alt="Guernica, Pablo Picasso">
+        <figure><figcaption>Guernica de Picasso, 1937</figcaption></figure>
+    </div>
+
+    <h3 class="article__h3">La création du mouvement</h3>
+    <p class="article__text">Développé à partir de 1907 à l'initiative des peintres Pablo Picasso, Georges Braque et dans une certaine mesure Auguste Herbin (« précubisme »), le cubisme connait son apogée lors de la période dite du cubisme analytique (1910-1912) avec des œuvres d'artistes comme Juan Gris, Jean Metzinger, Albert Gleizes, Robert Delaunay, Henri Le Fauconnier et Fernand Léger. Suivi par le cubisme synthétique et l'orphisme (1912) puis interrompu pendant la Grande Guerre de 1914 à 1918, le mouvement demeure actif jusqu'au milieu des années 1920, notamment grâce au soutien des marchands d'art Léonce Rosenberg et Daniel-Henry Kahnweiler. Il cède ensuite la place à de nouveaux courants d'avant-garde : le mouvement dada, l'abstraction géométrique, le surréalisme, De Stijl ou encore l'Art déco.</p>
+
+    <h3 class="article__h3">Succès du cubisme</h3>
+    <p class="article__text">Le cubisme a connu un succès important à travers le monde, donnant parfois lieu à l'élaboration de variantes nationales telles que le cubisme tchécoslovaque. S'il est surtout connu comme mouvement pictural, la sculpture a joué un rôle important dans le développement du mouvement. Après Pablo Picasso, initiateur de la sculpture cubiste dès 1909 (Tête de Fernande), les principaux sculpteurs cubistes sont Alexandre Archipenko, Joseph Csaky, Raymond Duchamp-Villon, Jacques Lipchitz, Henri Laurens, Pablo Gargallo et Ossip Zadkine.</p>
+
+    <a class="accueil__text2" href="https://www.wikiart.org/fr/artists-by-art-movement/cubisme#!#resultType:masonry">En découvrir plus sur le cubisme</a>
+    
+    <h2 class="article__h2">Les artistes présents</h2>
+    <span class="article__bar"></span>
+
+    <div class="article__frise">
+
+        <div class="article__link">
+            <a href="/francais/juliogonzalez.html">
+                <img class="article__frise-imgleft" src="/public/img/jgrond.webp" alt="photo de Julio González"></a>
+                <p class="article__contenuleft">Julio González, 1876-1942</p>
+        </div>
+
+        <div class="article__link1">
+            <a href="/francais/fernandleger.html">
+                <img class="article__frise-imgright" src="/public/img/flrond.webp" alt="photo de Fernand Léger"></a>
+                <p class="article__contenurigth">Fernand Léger, 1881-1955</p>
+        </div>
+
+        <div class="article__link2">
+            <a href="/francais/mariablanchard.html">
+                <img class="article__frise-imgleft" src="/public/img/mbrond.webp" alt="photo de Maria Blanchard"></a>
+                <p class="article__contenuleft">Maria Blanchard, 1881-1932</p>
+        </div>
+
+        <div class="article__link3">
+            <a href="/francais/yiannismoralis.html">
+                <img class="article__frise-imgright" src="/public/img/ymrond.webp" alt="photo de Yiannis Moralis"></a>
+                <p class="article__contenuright">Yiannis Moralis, 1916-2009</p>
+        </div>
+
+  </main>
+
+  <footer class="footer__main">
+    <a class="footer__title" href="https://www.fondationcartier.com/">Fondation Cartier</a>
+    <p class="footer__text">261 Bd Raspail</p>
+    <p class="footer__text">75014 Paris</p>
+    <p class="footer__text">01 42 18 56 30</p>
+
+    <p class="footer__title">Pour rester au courant de nos actualités, suivez nous sur</p>
+    <ul class="footer__list">
+        <li class="list-unstyled"><a href="https://facebook.com" aria-label="Facebook"><img class="footer__img" src="/public/icones/facebook.webp" alt="logo de Facebook"></a></li>
+        <li class="list-unstyled"><a href="https://instagram.com" aria-label="Instagram"><img class="footer__img" src="/public/icones/instagram.webp" alt="logo d'Instagram"></a></li>
+        <li class="list-unstyled"><a href="https://youtube.com" aria-label="Youtube"><img class="footer__img" src="/public/icones/youtube.webp" alt="logo de Youtube"></a></li>
+        <li class="list-unstyled"><a href="https://twitter.com" aria-label="Twitter"><img class="footer__img" src="/public/icones/twitter.webp" alt="logo de Twitter"></a></li>
+      </ul>
+
+    <p class="footer__mention">Mentions légales</p>
+    
+  </footer>
+    
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kub">
+
+    <title>Mujer Sentada Composición Con Mancha Roja</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="https://unpkg.com/alpinejs" defer></script>
+</head>
+
+<body>
+    <header class="header__main">
+        <a class="header__logo" href="/francais/index.html">
+            <img src="/public/icones/KUB.webp" alt="logo du site">
+        </a>
+    
+        <a class="header__langue" href="/">
+          <img src="/public/icones/EN.svg" alt="logo changement de langue">
+        </a>
+    
+        <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+          <span class="menu-btn__bar"></span>
+        </button>
+    
+        <nav class="header__menu menu" x-show="menuIsOpen">
+          <ul class="menu__list">
+            
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/cubisme.html">
+                Le cubisme
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/fernandleger.html">
+                Fernand Léger
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/yiannismoralis.html">
+                Yiannis Moralis
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/mariablanchard.html">
+                Maria Blanchard
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/juliogonzalez.html">
+                Julio González
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/informationspratiques.html">
+                Informations pratique
+                <span class="menu__bar"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/francais/contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <h1>Mujer Sentada Composición Con Mancha Roja</h1>
+        <h2 class="article__h2">L'oeuvre</h2>
+        <span class="article__bar"></span>
+    
+        <div class="article__square">
+            <img class="article__img" src="/public/img/mujeroeuvre.webp" alt="Mujer Sentada Composición Con Mancha Roja, Maria Blanchard">
+            <figure><figcaption>Mujer Sentada Composición Con Mancha Roja, Maria Blanchard, 1916</figcaption></figure>
+        </div>
+    
+        <h3 class="article__h3">Description de l'oeuvre</h3>
+        <p class="article__text">En 1916, la peintre retourne définitivement à Paris. Liée à Jean Metzinger, André Lhote, Juan Gris ou encore Jacques Lipchitz, elle y vit l'aventure cubiste et expose à L'Effort Moderne, la galerie de Léonce Rosenberg. Elle développe l'esthétique cubiste de façon originale, en donnant à la figure humaine une place inhabituelle dans le cubisme classique. D'après Cécile Debray, certaines de ses œuvres de cette époque auraient ainsi influencé La Fillette au cerceau (1919), de Pablo Picasso.</p>
+    
+        <button class="article__button"><a href="/francais/composici.html"><p>Composición Con Personaje</p></a></button>
+    
+      </main>
+    
+      <footer class="footer__main">
+        <a class="footer__title" href="https://www.fondationcartier.com/">Fondation Cartier</a>
+        <p class="footer__text">261 Bd Raspail</p>
+        <p class="footer__text">75014 Paris</p>
+        <p class="footer__text">01 42 18 56 30</p>
+    
+        <p class="footer__title">Pour rester au courant de nos actualités, suivez nous sur</p>
+        <ul class="footer__list">
+            <li class="list-unstyled"><a href="https://facebook.com" aria-label="Facebook"><img class="footer__img" src="/public/icones/facebook.webp" alt="logo de Facebook"></a></li>
+            <li class="list-unstyled"><a href="https://instagram.com" aria-label="Instagram"><img class="footer__img" src="/public/icones/instagram.webp" alt="logo d'Instagram"></a></li>
+            <li class="list-unstyled"><a href="https://youtube.com" aria-label="Youtube"><img class="footer__img" src="/public/icones/youtube.webp" alt="logo de Youtube"></a></li>
+            <li class="list-unstyled"><a href="https://twitter.com" aria-label="Twitter"><img class="footer__img" src="/public/icones/twitter.webp" alt="logo de Twitter"></a></li>
+          </ul>
+    
+        <p class="footer__mention">Mentions légales</p>
+        
+      </footer>
+</body>
+</html>
